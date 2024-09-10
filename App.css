@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    background: blue;
+    justify-content: center;
+}
+
+.container{
+    height: 265px;
+    max-width: 410px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 20px 25px 0;
+    transition: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.container.active{
+    height: 530px;
+}
+
+header h1{
+    font-size: 21px;
+    font-weight: 500;
+}
